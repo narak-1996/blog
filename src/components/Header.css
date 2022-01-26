@@ -1,0 +1,287 @@
+.nav {
+    padding-left: 5%; 
+}
+
+.abc {
+    color: red;
+    padding-left: 20%;
+}
+
+.menus {
+    padding-left: 1000%;
+    color:black;
+    font-family: 'Lucida Sans Regular';
+    font-weight: bold;
+    
+}
+
+.ment {
+    padding-left: 1150%;
+    color: seagreen;
+
+}
+
+.paragraph {
+    text-align: left;
+    
+}
+
+.paragraph1{
+    font-weight: bold;
+    text-align: left;
+    
+}
+.title{
+    text-align: left;
+    /* font-family: italic; */
+    font-style: italic;
+}
+
+.container-list{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+}
+
+.world{
+    padding-left: 5%;
+    color: blue;
+    text-align: left;
+}
+
+.thumb1 {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60%;
+    color: white;
+    background-color: black;
+   
+   
+}
+
+.thumb {
+    /* text-align: center; */
+    padding-top: 120px;
+    padding-bottom: 60%;
+    /* padding-top: 120%; */
+    color: white;
+    /* margin-bottom: 40px; */
+    background-color: black;
+    /* margin-left: 80px; */
+}
+
+.card-title{
+    color: blue;
+    text-align: left;
+}
+
+.card-titles{
+    color: green;
+    text-align: left;
+}
+
+.card-titless{
+    color: black;
+    text-align: left;
+}
+
+.card-titlesss{
+    color: grey;
+    text-align: left;
+}
+
+.card-text{
+    text-align: left;
+ 
+}
+
+.text-muteds{
+    color: blue;
+}
+
+.fire{
+    text-align: left;
+    font-style: italic;
+}
+
+.fires{
+    font-style: arial;
+}
+
+.card-headers{
+padding: 2%;
+text-align: left;
+color: black;
+font-weight: bold;
+font-family: italic;
+font-size: 150%;
+font-style: italic;
+
+
+}
+
+.card-texts{
+    color: grey;
+    text-align: left;
+}
+
+.part{
+    color: blue;
+    text-align: left;
+}
+
+.card-headerst{
+    padding-right: 900px;
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: "Sans-Serif";
+    font-style: italic;
+}
+.parts{
+    color: blue;
+    text-align: left;
+    padding-right: 60%;
+}
+
+.larges{
+    padding-left: 130%;
+}
+
+.largest{
+    padding-left: 0%;
+    font-family:  Geneva, Verdana, sans-serif;
+}
+.large{
+    padding-left: 90%;
+}
+
+.signup{
+    border-radius: 10%;
+}
+
+.button{
+    border-radius: 70px;
+    color: #00c9fd;
+    padding: 10px;
+    border-color:#00c9fd;
+    width: 70px;
+    height: 50px;
+    /* border: none;  */
+    /* box-shadow: #00ffff; */
+}
+
+.button1{
+    border-radius: 70px;
+    color: grey;
+    padding: 10px;
+    border-color:grey ;
+    border: none; 
+    /* box-shadow: grey; */
+    width: 70px;
+    height: 50px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containers{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+textarea{
+    resize: vertical;
+}
+
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: rgb (27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(214, 226, 236);
+}
+
+#status{
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+
+}
+
+#status.success{
+    background-color: rgb(211,250,153);
+    animation: status 4s ease forwards;
+}
+
+#status.error{
+    background-color: rgb(250,129,92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
